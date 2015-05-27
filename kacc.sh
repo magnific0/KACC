@@ -1,19 +1,15 @@
 #!/bin/bash
 # KACC - Kiruna All-sky Camera Cloudiness, version 1
-# Jacco Geul <jacco@geul.net>, 2015
 #
 # The script uses imagemagick for identifying clouds in Kiruna All-sky
 # camera images. The script tries to differentiate between clouds and
 # aurora in images and computes a cloudiness fraction which is tested
 # against a threshold value.
 #
-# Inspired by Patrik Karrang.
+# Copyright 2015 by Jacco Geul <jacco@geul.net>
+# Licensed under GNU General Public License 3.0 or later.
 #
-# References
-# - http://www.irf.se/allsky/rtascirf.php
-# - http://www.irf.se/allsky/data.html
-# - http://www.wizards-toolkit.org/discourse-server/viewtopic.php?f=1&t=25660
-# - http://www.imagemagick.org/Usage/
+# https://github.com/magnific0/KACC
 
 # Threshold
 # Keep in mind that since this is a circle in a black image a good

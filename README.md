@@ -6,8 +6,6 @@ camera. The script tries to differentiate between clouds and
 aurora in images and computes a cloudiness fraction which is tested
 against a threshold value.
 
-Inspired by Patrik Karrang.
-
 ## Requirements
 * ImageMagick (tested with ImageMagick 6.9.1-2 Q16 x86_64)
 
@@ -37,8 +35,12 @@ It is adviced to use broad ranges and tweak accordingly by inspecting the interm
 ### File pattern
 All files in the same folder as the script that match ```*.JPG``` (see ```for f in *.JPG``` statement) will be processed by the script. Adapt this expression to your needs.
 
-## References
-* http://www.irf.se/allsky/rtascirf.php
-* http://www.irf.se/allsky/data.html
-* http://www.wizards-toolkit.org/discourse-server/viewtopic.php?f=1&t=25660
-* http://www.imagemagick.org/Usage/
+## Acknowledgements
+* Patrik Karang for the inspiration for the script and providing examples.
+* Kiruna All-sky Camera (http://www.irf.se/allsky/rtascirf.php)
+* HSL definition for ImageMagick (http://www.wizards-toolkit.org/discourse-server/viewtopic.php?f=1&t=25660)
+
+## Legal notice
+Copyright 2015 by Jacco Geul <jacco@geul.net>
+
+Licensed under GNU General Public License 3.0 or later.
