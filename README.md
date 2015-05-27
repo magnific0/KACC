@@ -44,6 +44,7 @@ All files in the same folder as the script that match ```*.JPG``` (see ```for f 
 Possible improvements include:
 * Improving the cloudiness score, by correcting for the margins around the circular image.
 * Calcultating an edge cloudiness score, by applying a circular mask (smaller than the picture by an edge distance) and again correcting the score.
+* Better handling of input files through commandline options.
 
 ## Legal notice
 Copyright 2015 by Jacco Geul <jacco@geul.net>
