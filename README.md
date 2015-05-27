@@ -19,7 +19,7 @@ against a threshold value.
 You can change parameters such as the thresold in the script itself.
 
 ### Threshold
-Thresold before image is considered too cloudy. Keep in mind that since this is a circle in a rectangular black image, therefore a good portion of the image remains black even when fully clouded. Fraction values range from 0.00 to 0.30ish (default 0.0004).
+Threshold value above which an image is considered cloudy. Keep in mind that this is a circle in a rectangular black image, therefore a good portion of the image remains black even when fully clouded. Fraction values range from 0.00 to 0.30ish (default 0.0004).
 
 ### HSV range settings for clouds and aurora
 Based on the HSV values clouds and aurora can be differentiated. These values can be obtained by manually inspecting an image using the color picker in any popular image procesing program (e.g., GIMP). Make sure to get the HSL values (not RGB, HSV, HSB etc).
